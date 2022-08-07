@@ -106,7 +106,7 @@ p{
   }
 }
 @media (max-width: 600px){
-  h1{
+  .persone-name{
     font-size: 28px;
   }
 }
