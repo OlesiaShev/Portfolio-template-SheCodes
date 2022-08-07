@@ -87,3 +87,26 @@ p{
     box-shadow: var(--box-shadow);
     color: white;
 }
+@media (max-width: 765px){
+  .img-app{
+    display: none;
+  }
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
+  .app-name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+  }
+  .paragraph{
+    text-align: center;
+  }
+}
+@media (max-width: 600px){
+  h1{
+    font-size: 28px;
+  }
+}
